@@ -1,0 +1,10 @@
+.idea/*
+*.pyc
+*.*~
+staticfiles
+*.pem
+node_modules/
+public/components
+.sass-cache
+js/build
+static/bower

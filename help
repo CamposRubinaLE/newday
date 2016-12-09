@@ -1,0 +1,6 @@
+1. clonar el repo
+2. crear el entorno virtual -> virtualenv "newdayEnv"
+3. posicionarse en el repo y intalar requirimientos -> pip install -r requirements.txt
+4. crear la base de datos (Postgresql) -> sudo -u postgres psql -> create database "newdayEnv"
+5. migrar la base de datos -> python manage.py migrate --settings=newday.settings.local
+6. correr el proyecto -> python manage.py runserver --settings=newday.settings.local
